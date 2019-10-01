@@ -1,0 +1,124 @@
+* {
+    padding:0;
+    margin: 0;
+}
+h1 {
+    font-family: 'slackey',cursive;
+    color:whitesmoke;
+}
+.header {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    
+}
+body{
+    padding:30px left 30px right;
+    margin: 20px;
+    margin-top:0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-image:url('https://bit.ly/2n8KOGd');
+    background-position: center center;
+    flex-wrap: wrap;
+    padding:3px;
+    background:linear-gradient(-45deg,#EE7752);
+    animation: Gradient 15s ease infinite;
+}
+ul {
+    display: flex;
+    background-color: pink;
+    padding: 20px;
+    border: black;   
+}
+a {
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+li {
+    list-style-type: none;
+    display:flex;
+    float:right;
+}
+nav {
+    border: black;
+    display: flexbox;
+
+
+}
+a:hover {
+    background-color: aquamarine;
+}
+.container {
+    position: relative;
+    width:90%;
+    display: grid;
+    display:flex;
+    flex-shrink:2;
+}
+.container .box {
+    position: relative;
+    height:600px;
+    background: #060c21;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid #000;
+    opacity:0.5 ;
+}
+.content {
+    position: relative;
+    padding: 20px;
+}
+.content p {
+    font:awesome;
+    color:paleturquoise;
+}
+strong{
+    color: peru;
+}
+.wrapper > li {
+    list-style:none;
+    margin:10px 30px;
+    display:inline-block;
+    font-size: 20px;
+    font-weight:heavy;
+    padding:20px 20px;
+    color: violet;
+    border-radius:50%;
+    transition: .5s: 
+}
+.wrapper > li:hover {
+    color:#292929;
+    border:1pxsolid#2929;
+    transition: .5s;
+}
+.media {
+    list-style:none;
+    display:inline-block;
+    font-size: 20px;
+    padding:20px 20px;
+    color:rgb(6, 4, 20);
+    border-radius:50%;
+    transition: .5s: 
+    justify-content: stretch;
+}
+footer {
+    display: flex;
+    flex-direction:column
+}
+footer > p{
+    font-style: italic;
+    font-weight: bold;
+    font-size:50px;
+}
+table {
+    background-color: aliceblue;
+    opacity:0.5;
+    margin: 10px;
+    border: 10px;
+    padding: 20px;
+}
