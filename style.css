@@ -44,7 +44,7 @@ li {
 nav {
     border: black;
     display: flexbox;
-
+    position: static;
 
 }
 a:hover {
